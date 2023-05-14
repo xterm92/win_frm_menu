@@ -1,0 +1,743 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<!--수정:20221207-->
+<Menu>
+	<MenuItem header="DashBoard">
+		<MenuItem header="시스템 모니터링">
+			<MenuItem id="UAPSMSQ0200" market="1" header="시스템 모니터링 (유가)"/>
+			<MenuItem id="UAPSMSQ0200" market="2" header="시스템 모니터링 (코스닥)"/>
+			<MenuItem id="UAPSMSQ0200" market="4" header="시스템 모니터링 (파생)"/>
+			<MenuItem id="UAPSMSQ0200" market="8" header="시스템 모니터링 (채권)"/>
+			<MenuItem id="UAPSMSQ0200" market="16" header="시스템 모니터링 (공통)"/>
+			<MenuItem id="UAPSMSQ0200" market="32" header="시스템 모니터링 (일반)"/>
+		</MenuItem>
+		<MenuItem header="업무상황 통합 Dash Board">
+			<MenuItem header="유가">
+				<MenuItem id="UAPAMSQ0600" market="1" symbol="STK" header="업무상황 통합 Dash Board (유가)"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPAMSQ0600" market="2" symbol="KSQ" header="업무상황 통합 Dash Board (KOSDAQ)"/>
+				<MenuItem id="UAPAMSQ0600" market="2" symbol="KNX" header="업무상황 통합 Dash Board (KONEX)"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPAMSQ0600" market="4" symbol="DRV" header="업무상황 통합 Dash Board (파생)"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPAMSQ0600" market="8" symbol="BND" header="업무상황 통합 Dash Board (일반채권)"/>
+				<MenuItem id="UAPAMSQ0600" market="8" symbol="SMB" header="업무상황 통합 Dash Board (소액채권)"/>
+				<MenuItem id="UAPAMSQ0600" market="8" symbol="KTS" header="업무상황 통합 Dash Board (국고채)"/>
+				<MenuItem id="UAPAMSQ0600" market="8" symbol="RPO" header="업무상황 통합 Dash Board (REPO)"/>
+			</MenuItem>
+			<MenuItem header="일반">
+				<MenuItem id="UAPAMSQ0600" market="32" symbol="OIL" header="업무상황 통합 Dash Board (석유)" size="false"/>
+				<MenuItem id="UAPAMSQ0600" market="32" symbol="CMD" header="업무상황 통합 Dash Board (금)" size="false"/>
+				<MenuItem id="UAPAMSQ0600" market="32" symbol="ETS" header="업무상황 통합 Dash Board (온실가스)" size="false"/>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem header="매매정보 성능 모니터링">
+			<MenuItem header="유가">
+				<MenuItem id="UAPTRAQ0050" market="1" symbol="STK" header="매매정보 성능 모니터링 (유가)"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPTRAQ0050" market="2" symbol="KSQ" header="매매정보 성능 모니터링 (KOSDAQ)"/>
+				<MenuItem id="UAPTRAQ0050" market="2" symbol="KNX" header="매매정보 성능 모니터링 (KONEX)"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPTRAQ0050" market="4" symbol="DRV" header="매매정보 성능 모니터링 (파생)"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPTRAQ0050" market="8" symbol="BND" header="매매정보 성능 모니터링 (일반채권)"/>
+				<MenuItem id="UAPTRAQ0050" market="8" symbol="SMB" header="매매정보 성능 모니터링 (소액채권)"/>
+				<MenuItem id="UAPTRAQ0050" market="8" symbol="KTS" header="매매정보 성능 모니터링 (국고채)"/>
+				<MenuItem id="UAPTRAQ0050" market="8" symbol="RPO" header="매매정보 성능 모니터링 (REPO)"/>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem header="업무종합상황판">
+			<MenuItem header="유가">
+				<MenuItem id="UAPAMSQ0010" market="1" symbol="STK" header="업무종합상황판 (유가)"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPAMSQ0010" market="2" symbol="KSQ" header="업무종합상황판 (KOSDAQ)"/>
+				<MenuItem id="UAPAMSQ0010" market="2" symbol="KNX" header="업무종합상황판 (KONEX)"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPAMSQ0010" market="4" symbol="DRV" header="업무종합상황판 (파생)"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPAMSQ0010" market="8" symbol="BND" header="업무종합상황판 (일반채권)"/>
+				<MenuItem id="UAPAMSQ0010" market="8" symbol="SMB" header="업무종합상황판 (소액채권)"/>
+				<MenuItem id="UAPAMSQ0010" market="8" symbol="KTS" header="업무종합상황판 (국고채)"/>
+				<MenuItem id="UAPAMSQ0010" market="8" symbol="RPO" header="업무종합상황판 (REPO)"/>
+			</MenuItem>
+			<MenuItem header="일반">
+				<MenuItem id="UAPAMSQ0010" market="32" symbol="OIL" header="업무종합상황판 (석유)"/>
+				<MenuItem id="UAPAMSQ0010" market="32" symbol="CMD" header="업무종합상황판 (금)"/>
+				<MenuItem id="UAPAMSQ0010" market="32" symbol="ETS" header="업무종합상황판 (온실가스)"/>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem header="업무별 종합 처리현황 모니터링">
+			<MenuItem header="유가">
+				<MenuItem id="UAPAMSQ0200" market="1" symbol="STK" header="업무별 종합 처리현황 모니터링 (유가)"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPAMSQ0200" market="2" symbol="KSQ" header="업무별 종합 처리현황 모니터링 (KOSDAQ)"/>
+				<MenuItem id="UAPAMSQ0200" market="2" symbol="KNX" header="업무별 종합 처리현황 모니터링 (KONEX)"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPAMSQ0200" market="4" symbol="DRV" header="업무별 종합 처리현황 모니터링 (파생)"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPAMSQ0200" market="8" symbol="BND" header="업무별 종합 처리현황 모니터링 (일반채권)"/>
+				<MenuItem id="UAPAMSQ0200" market="8" symbol="SMB" header="업무별 종합 처리현황 모니터링 (소액채권)"/>
+				<MenuItem id="UAPAMSQ0200" market="8" symbol="KTS" header="업무별 종합 처리현황 모니터링 (국고채)"/>
+				<MenuItem id="UAPAMSQ0200" market="8" symbol="RPO" header="업무별 종합 처리현황 모니터링 (REPO)"/>
+			</MenuItem>
+			<MenuItem header="일반">
+				<MenuItem id="UAPAMSQ0200" market="32" symbol="OIL" header="업무별 종합 처리현황 모니터링 (석유)"/>
+				<MenuItem id="UAPAMSQ0200" market="32" symbol="CMD" header="업무별 종합 처리현황 모니터링 (금)"/>
+				<MenuItem id="UAPAMSQ0200" market="32" symbol="ETS" header="업무별 종합 처리현황 모니터링 (온실가스)"/>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem header="DRG 동기화 모니터링">
+			<MenuItem header="유가">
+				<MenuItem id="UAPAMSQ0510" market="1" symbol="STK" header="DRG 동기화 모니터링 (유가)"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPAMSQ0510" market="2" symbol="KSQ" header="DRG 동기화 모니터링 (KOSDAQ)"/>
+				<MenuItem id="UAPAMSQ0510" market="2" symbol="KNX" header="DRG 동기화 모니터링 (KONEX)"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPAMSQ0510" market="4" symbol="DRV" header="DRG 동기화 모니터링 (파생)"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPAMSQ0510" market="8" symbol="BND" header="DRG 동기화 모니터링 (일반채권)"/>
+				<MenuItem id="UAPAMSQ0510" market="8" symbol="SMB" header="DRG 동기화 모니터링 (소액채권)"/>
+				<MenuItem id="UAPAMSQ0510" market="8" symbol="KTS" header="DRG 동기화 모니터링 (국고채)"/>
+				<MenuItem id="UAPAMSQ0510" market="8" symbol="RPO" header="DRG 동기화 모니터링 (REPO)"/>
+			</MenuItem>
+			<MenuItem header="일반">
+				<MenuItem id="UAPAMSQ0510" market="32" symbol="OIL" header="DRG 동기화 모니터링 (석유)"/>
+				<MenuItem id="UAPAMSQ0510" market="32" symbol="CMD" header="DRG 동기화 모니터링 (금)"/>
+				<MenuItem id="UAPAMSQ0510" market="32" symbol="ETS" header="DRG 동기화 모니터링 (온실가스)"/>
+			</MenuItem>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem header="System">
+		<MenuItem header="시스템 사용현황 모니터링">
+			<MenuItem id="UAPSMSQ0030" market="1" header="시스템 사용현황 모니터링 (유가)"/>
+			<MenuItem id="UAPSMSQ0030" market="2" header="시스템 사용현황 모니터링 (코스닥)"/>
+			<MenuItem id="UAPSMSQ0030" market="4" header="시스템 사용현황 모니터링 (파생)"/>
+			<MenuItem id="UAPSMSQ0030" market="8" header="시스템 사용현황 모니터링 (채권)"/>
+			<MenuItem id="UAPSMSQ0030" market="16" header="시스템 사용현황 모니터링 (공통)"/>
+			<MenuItem id="UAPSMSQ0030" market="32" header="시스템 사용현황 모니터링 (일반)"/>
+		</MenuItem>
+		<MenuItem header="CPU 모니터링">
+			<MenuItem id="UAPSMSQ0040" market="1" header="CPU 모니터링 (유가)"/>
+			<MenuItem id="UAPSMSQ0040" market="2" header="CPU 모니터링 (코스닥)"/>
+			<MenuItem id="UAPSMSQ0040" market="4" header="CPU 모니터링 (파생)"/>
+			<MenuItem id="UAPSMSQ0040" market="8" header="CPU 모니터링 (채권)"/>
+			<MenuItem id="UAPSMSQ0040" market="16" header="CPU 모니터링 (공통)"/>
+			<MenuItem id="UAPSMSQ0040" market="32" header="CPU 모니터링 (일반)"/>
+		</MenuItem>
+		<MenuItem header="Memory 모니터링">
+			<MenuItem id="UAPSMSQ0050" market="1" header="Memory 모니터링 (유가)"/>
+			<MenuItem id="UAPSMSQ0050" market="2" header="Memory 모니터링 (코스닥)"/>
+			<MenuItem id="UAPSMSQ0050" market="4" header="Memory 모니터링 (파생)"/>
+			<MenuItem id="UAPSMSQ0050" market="8" header="Memory 모니터링 (채권)"/>
+			<MenuItem id="UAPSMSQ0050" market="16" header="Memory 모니터링 (공통)"/>
+			<MenuItem id="UAPSMSQ0050" market="32" header="Memory 모니터링 (일반)"/>
+		</MenuItem>
+		<MenuItem header="Disk 모니터링">
+			<MenuItem id="UAPSMSQ0060" market="1" header="Disk 모니터링 (유가)"/>
+			<MenuItem id="UAPSMSQ0060" market="2" header="Disk 모니터링 (코스닥)"/>
+			<MenuItem id="UAPSMSQ0060" market="4" header="Disk 모니터링 (파생)"/>
+			<MenuItem id="UAPSMSQ0060" market="8" header="Disk 모니터링 (채권)"/>
+			<MenuItem id="UAPSMSQ0060" market="16" header="Disk 모니터링 (공통)"/>
+			<MenuItem id="UAPSMSQ0060" market="32" header="Disk 모니터링 (일반)"/>
+		</MenuItem>
+		<MenuItem header="NetWork">
+			<MenuItem header="Ethernet Network 모니터링">
+				<MenuItem id="UAPSMSQ0070" market="1" header="Ethernet Network 모니터링 (유가)"/>
+				<MenuItem id="UAPSMSQ0070" market="2" header="Ethernet Network 모니터링 (코스닥)"/>
+				<MenuItem id="UAPSMSQ0070" market="4" header="Ethernet Network 모니터링 (파생)"/>
+				<MenuItem id="UAPSMSQ0070" market="8" header="Ethernet Network 모니터링 (채권)"/>
+				<MenuItem id="UAPSMSQ0070" market="16" header="Ethernet Network 모니터링 (공통)"/>
+				<MenuItem id="UAPSMSQ0070" market="32" header="Ethernet Network 모니터링 (일반)"/>
+			</MenuItem>
+			<MenuItem header="Infiniband Network 모니터링">
+				<MenuItem id="UAPSMSQ0100" market="1" header="Infiniband Network 모니터링 (유가)"/>
+				<MenuItem id="UAPSMSQ0100" market="2" header="Infiniband Network 모니터링 (코스닥)"/>
+				<MenuItem id="UAPSMSQ0100" market="4" header="Infiniband Network 모니터링 (파생)"/>
+				<MenuItem id="UAPSMSQ0100" market="8" header="Infiniband Network 모니터링 (채권)"/>
+				<MenuItem id="UAPSMSQ0100" market="16" header="Infiniband Network 모니터링 (공통)"/>
+				<MenuItem id="UAPSMSQ0100" market="32" header="Infiniband Network 모니터링 (일반)"/>
+			</MenuItem>
+			<MenuItem header="TCPBacklogDrop 모니터링">
+				<MenuItem id="UAPSMSQ0073" market="1" header="TCPBacklogDrop 모니터링 (유가)"/>
+				<MenuItem id="UAPSMSQ0073" market="2" header="TCPBacklogDrop 모니터링 (코스닥)"/>
+				<MenuItem id="UAPSMSQ0073" market="4" header="TCPBacklogDrop 모니터링 (파생)"/>
+				<MenuItem id="UAPSMSQ0073" market="8" header="TCPBacklogDrop 모니터링 (채권)"/>
+				<MenuItem id="UAPSMSQ0073" market="16" header="TCPBacklogDrop 모니터링 (공통)"/>
+				<MenuItem id="UAPSMSQ0073" market="32" header="TCPBacklogDrop 모니터링 (일반)"/>
+			</MenuItem>
+			<MenuItem header="UDPInErrors 모니터링">
+				<MenuItem id="UAPSMSQ0074" market="1" header="UDPInErrors 모니터링 (유가)"/>
+				<MenuItem id="UAPSMSQ0074" market="2" header="UDPInErrors 모니터링 (코스닥)"/>
+				<MenuItem id="UAPSMSQ0074" market="4" header="UDPInErrors 모니터링 (파생)"/>
+				<MenuItem id="UAPSMSQ0074" market="8" header="UDPInErrors 모니터링 (채권)"/>
+				<MenuItem id="UAPSMSQ0074" market="16" header="UDPInErrors 모니터링 (공통)"/>
+				<MenuItem id="UAPSMSQ0074" market="32" header="UDPInErrors 모니터링 (일반)"/>
+			</MenuItem>
+			<MenuItem header="UDPRcvbufErrors 모니터링">
+				<MenuItem id="UAPSMSQ0075" market="1" header="UDPRcvbufErrors 모니터링 (유가)"/>
+				<MenuItem id="UAPSMSQ0075" market="2" header="UDPRcvbufErrors 모니터링 (코스닥)"/>
+				<MenuItem id="UAPSMSQ0075" market="4" header="UDPRcvbufErrors 모니터링 (파생)"/>
+				<MenuItem id="UAPSMSQ0075" market="8" header="UDPRcvbufErrors 모니터링 (채권)"/>
+				<MenuItem id="UAPSMSQ0075" market="16" header="UDPRcvbufErrors 모니터링 (공통)"/>
+				<MenuItem id="UAPSMSQ0075" market="32" header="UDPRcvbufErrors 모니터링 (일반)"/>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem header="프로세스 리소스 점유현황 모니터링">
+			<MenuItem id="UAPSMSQ0080" market="1" header="프로세스 리소스 점유현황 모니터링 (유가)"/>
+			<MenuItem id="UAPSMSQ0080" market="2" header="프로세스 리소스 점유현황 모니터링 (코스닥)"/>
+			<MenuItem id="UAPSMSQ0080" market="4" header="프로세스 리소스 점유현황 모니터링 (파생)"/>
+			<MenuItem id="UAPSMSQ0080" market="8" header="프로세스 리소스 점유현황 모니터링 (채권)"/>
+			<MenuItem id="UAPSMSQ0080" market="16" header="프로세스 리소스 점유현황 모니터링 (공통)"/>
+			<MenuItem id="UAPSMSQ0080" market="32" header="프로세스 리소스 점유현황 모니터링 (일반)"/>
+		</MenuItem>
+		<MenuItem header="Ping 상태 모니터링">
+			<MenuItem id="UAPSMSQ0090" market="1" header="Ping 상태 모니터링 (유가)"/>
+			<MenuItem id="UAPSMSQ0090" market="2" header="Ping 상태 모니터링 (코스닥)"/>
+			<MenuItem id="UAPSMSQ0090" market="4" header="Ping 상태 모니터링 (파생)"/>
+			<MenuItem id="UAPSMSQ0090" market="8" header="Ping 상태 모니터링 (채권)"/>
+			<MenuItem id="UAPSMSQ0090" market="16" header="Ping 상태 모니터링 (공통)"/>
+			<MenuItem id="UAPSMSQ0090" market="32" header="Ping 상태 모니터링 (일반)"/>
+		</MenuItem>
+		<MenuItem header="서버별 시간동기화 모니터링">
+			<MenuItem id="UAPSMSM0120" market="1" header="서버별 시간동기화 모니터링 (유가)"/>
+			<MenuItem id="UAPSMSM0120" market="2" header="서버별 시간동기화 모니터링 (코스닥)"/>
+			<MenuItem id="UAPSMSM0120" market="4" header="서버별 시간동기화 모니터링 (파생)"/>
+			<MenuItem id="UAPSMSM0120" market="8" header="서버별 시간동기화 모니터링 (채권)"/>
+			<MenuItem id="UAPSMSM0120" market="16" header="서버별 시간동기화 모니터링 (공통)"/>
+			<MenuItem id="UAPSMSM0120" market="32" header="서버별 시간동기화 모니터링 (일반)"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem header="DBMS">
+		<MenuItem header="Oracle 성능 모니터링">
+			<MenuItem id="UAPDBMQ0010" market="1"  header="Oracle 성능 모니터링 (유가)" />
+			<MenuItem id="UAPDBMQ0010" market="2"  header="Oracle 성능 모니터링 (코스닥)"/>
+			<MenuItem id="UAPDBMQ0010" market="4"  header="Oracle 성능 모니터링 (파생)"/>
+			<MenuItem id="UAPDBMQ0010" market="8"  header="Oracle 성능 모니터링 (채권)"/>
+			<MenuItem id="UAPDBMQ0010" market="16" header="Oracle 성능 모니터링 (공통)"/>
+			<MenuItem id="UAPDBMQ0010" market="32" header="Oracle 성능 모니터링 (일반)"/>
+		</MenuItem>	
+		<MenuItem header="Oracle Table Space">
+			<MenuItem id="UAPDBMQ0011" market="1"  header="Oracle Table Space (유가)" />
+			<MenuItem id="UAPDBMQ0011" market="2"  header="Oracle Table Space (코스닥)"/>
+			<MenuItem id="UAPDBMQ0011" market="4"  header="Oracle Table Space (파생)"/>
+			<MenuItem id="UAPDBMQ0011" market="8"  header="Oracle Table Space (채권)"/>
+			<MenuItem id="UAPDBMQ0011" market="16" header="Oracle Table Space (공통)"/>
+			<MenuItem id="UAPDBMQ0011" market="32" header="Oracle Table Space (일반)"/>
+		</MenuItem>
+		<MenuItem header="MOA 모니터링">
+			<MenuItem id="UAPDBMQ0020" market="1"  header="MOA 모니터링 (유가)" />
+			<MenuItem id="UAPDBMQ0020" market="2"  header="MOA 모니터링 (코스닥)"/>
+			<MenuItem id="UAPDBMQ0020" market="4"  header="MOA 모니터링 (파생)"/>
+			<MenuItem id="UAPDBMQ0020" market="8"  header="MOA 모니터링 (채권)"/>
+			<MenuItem id="UAPDBMQ0020" market="16" header="MOA 모니터링 (공통)"/>
+			<MenuItem id="UAPDBMQ0020" market="32" header="MOA 모니터링 (일반)"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem header="미들웨어">
+		<MenuItem header="Rvd">
+			<MenuItem id="UAPMWMQ0010" market="1"  header="Rvd (유가)" />
+			<MenuItem id="UAPMWMQ0010" market="2"  header="Rvd (코스닥)"/>
+			<MenuItem id="UAPMWMQ0010" market="4"  header="Rvd (파생)"/>
+			<MenuItem id="UAPMWMQ0010" market="8"  header="Rvd (채권)"/>
+			<MenuItem id="UAPMWMQ0010" market="16" header="Rvd (공통)"/>
+			<MenuItem id="UAPMWMQ0010" market="32" header="Rvd (일반)"/>
+		</MenuItem>
+		<MenuItem header="XPM">
+			<MenuItem header="XPM 종합 모니터링">
+				<MenuItem id="UAPMWMQ0020" market="1"  header="XPM 종합 모니터링 (유가)" />
+				<MenuItem id="UAPMWMQ0020" market="2"  header="XPM 종합 모니터링 (코스닥)"/>
+				<MenuItem id="UAPMWMQ0020" market="4"  header="XPM 종합 모니터링 (파생)"/>
+				<MenuItem id="UAPMWMQ0020" market="8"  header="XPM 종합 모니터링 (채권)"/>
+				<MenuItem id="UAPMWMQ0020" market="16" header="XPM 종합 모니터링 (공통)"/>
+				<MenuItem id="UAPMWMQ0020" market="32" header="XPM 종합 모니터링 (일반)"/>
+			</MenuItem>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem header="PMS">
+		<MenuItem header="프로세스 종합 모니터링">
+			<MenuItem header="유가">
+				<MenuItem id="UAPPMSQ0010" market="1" symbol="STK" header="프로세스 종합 모니터링 (유가)"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPPMSQ0010" market="2" symbol="KSQ" header="프로세스 종합 모니터링 (KOSDAQ)"/>
+				<MenuItem id="UAPPMSQ0010" market="2" symbol="KNX" header="프로세스 종합 모니터링 (KONEX)"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPPMSQ0010" market="4" symbol="DRV" header="프로세스 종합 모니터링 (파생)"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPPMSQ0010" market="8" symbol="BND" header="프로세스 종합 모니터링 (일반채권)"/>
+				<MenuItem id="UAPPMSQ0010" market="8" symbol="SMB" header="프로세스 종합 모니터링 (소액채권)"/>
+				<MenuItem id="UAPPMSQ0010" market="8" symbol="KTS" header="프로세스 종합 모니터링 (국고채)"/>
+				<MenuItem id="UAPPMSQ0010" market="8" symbol="RPO" header="프로세스 종합 모니터링 (REPO)"/>
+			</MenuItem>
+			<MenuItem header="일반">
+				<MenuItem id="UAPPMSQ0010" market="32" symbol="OIL" header="프로세스 종합 모니터링 (석유)"/>
+				<MenuItem id="UAPPMSQ0010" market="32" symbol="CMD" header="프로세스 종합 모니터링 (금)"/>
+				<MenuItem id="UAPPMSQ0010" market="32" symbol="ETS" header="프로세스 종합 모니터링 (온실가스)"/>
+			</MenuItem>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem header="AMS">
+		<MenuItem header="AMS Dash Board">
+			<MenuItem header="유가">
+				<MenuItem id="UAPAMSQ0101" market="1" symbol="STK" header="AMS Dash Board (유가)" size="false"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPAMSQ0101" market="2" symbol="KSQ" header="AMS Dash Board (KOSDAQ)" size="false"/>
+				<MenuItem id="UAPAMSQ0101" market="2" symbol="KNX" header="AMS Dash Board (KONEX)" size="false"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPAMSQ0101" market="4" symbol="DRV" header="AMS Dash Board (파생)" size="false"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPAMSQ0101" market="8" symbol="BND" header="AMS Dash Board (일반채권)" size="false"/>
+				<MenuItem id="UAPAMSQ0101" market="8" symbol="SMB" header="AMS Dash Board (소액채권)" size="false"/>
+				<MenuItem id="UAPAMSQ0101" market="8" symbol="KTS" header="AMS Dash Board (국고채)" size="false"/>
+				<MenuItem id="UAPAMSQ0101" market="8" symbol="RPO" header="AMS Dash Board (REPO)" size="false"/>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem header="업무종합상황판">
+			<MenuItem header="유가">
+				<MenuItem id="UAPAMSQ0011" market="1" symbol="STK" header="업무종합상황판 (유가)"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPAMSQ0011" market="2" symbol="KSQ" header="업무종합상황판 (KOSDAQ)"/>
+				<MenuItem id="UAPAMSQ0011" market="2" symbol="KNX" header="업무종합상황판 (KONEX)"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPAMSQ0011" market="4" symbol="DRV" header="업무종합상황판 (파생)"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPAMSQ0011" market="8" symbol="BND" header="업무종합상황판 (일반채권)"/>
+				<MenuItem id="UAPAMSQ0011" market="8" symbol="SMB" header="업무종합상황판 (소액채권)"/>
+				<MenuItem id="UAPAMSQ0011" market="8" symbol="KTS" header="업무종합상황판 (국고채)"/>
+				<MenuItem id="UAPAMSQ0011" market="8" symbol="RPO" header="업무종합상황판 (REPO)"/>
+			</MenuItem>
+			<MenuItem header="일반">
+				<MenuItem id="UAPAMSQ0011" market="32" symbol="OIL" header="업무종합상황판 (석유)"/>
+				<MenuItem id="UAPAMSQ0011" market="32" symbol="CMD" header="업무종합상황판 (금)"/>
+				<MenuItem id="UAPAMSQ0011" market="32" symbol="ETS" header="업무종합상황판 (온실가스)"/>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem header="업무성능 종합 모니터링">
+			<MenuItem header="유가">
+				<MenuItem id="UAPAMSQ0031" market="1" symbol="STK" header="업무성능 종합 모니터링 (유가)"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPAMSQ0031" market="2" symbol="KSQ" header="업무성능 종합 모니터링 (KOSDAQ)"/>
+				<MenuItem id="UAPAMSQ0031" market="2" symbol="KNX" header="업무성능 종합 모니터링 (KONEX)"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPAMSQ0031" market="4" symbol="DRV" header="업무성능 종합 모니터링 (파생)"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPAMSQ0031" market="8" symbol="BND" header="업무성능 종합 모니터링 (일반채권)"/>
+				<MenuItem id="UAPAMSQ0031" market="8" symbol="SMB" header="업무성능 종합 모니터링 (소액채권)"/>
+				<MenuItem id="UAPAMSQ0031" market="8" symbol="KTS" header="업무성능 종합 모니터링 (국고채)"/>
+				<MenuItem id="UAPAMSQ0031" market="8" symbol="RPO" header="업무성능 종합 모니터링 (REPO)"/>
+			</MenuItem>
+			<MenuItem header="일반">
+				<MenuItem id="UAPAMSQ0031" market="32" symbol="OIL" header="업무성능 종합 모니터링 (석유)"/>
+				<MenuItem id="UAPAMSQ0031" market="32" symbol="CMD" header="업무성능 종합 모니터링 (금)"/>
+				<MenuItem id="UAPAMSQ0031" market="32" symbol="ETS" header="업무성능 종합 모니터링 (온실가스)"/>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem header="TAT 성능 모니터링">
+			<MenuItem header="유가">
+				<MenuItem id="UAPAMSQ0041" market="1" symbol="STK" header="TAT 성능 모니터링 (유가)"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPAMSQ0041" market="2" symbol="KSQ" header="TAT 성능 모니터링 (KOSDAQ)"/>
+				<MenuItem id="UAPAMSQ0041" market="2" symbol="KNX" header="TAT 성능 모니터링 (KONEX)"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPAMSQ0041" market="4" symbol="DRV" header="TAT 성능 모니터링 (파생)"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPAMSQ0041" market="8" symbol="BND" header="TAT 성능 모니터링 (일반채권)"/>
+				<MenuItem id="UAPAMSQ0041" market="8" symbol="SMB" header="TAT 성능 모니터링 (소액채권)"/>
+				<MenuItem id="UAPAMSQ0041" market="8" symbol="KTS" header="TAT 성능 모니터링 (국고채)"/>
+				<MenuItem id="UAPAMSQ0041" market="8" symbol="RPO" header="TAT 성능 모니터링 (REPO)"/>
+			</MenuItem>
+			<MenuItem header="일반">
+				<MenuItem id="UAPAMSQ0041" market="32" symbol="OIL" header="TAT 성능 모니터링 (석유)"/>
+				<MenuItem id="UAPAMSQ0041" market="32" symbol="CMD" header="TAT 성능 모니터링 (금)"/>
+				<MenuItem id="UAPAMSQ0041" market="32" symbol="ETS" header="TAT 성능 모니터링 (온실가스)"/>
+			</MenuItem>
+		</MenuItem>
+		<MenuItem header="TAT 처리 소요시간 성능추이 모니터링">
+			<MenuItem header="유가">
+				<MenuItem id="UAPTMSQ0020" market="1" symbol="STK" header="TAT 처리 소요시간 성능추이 모니터링 (유가)"/>
+			</MenuItem>
+			<MenuItem header="코스닥">
+				<MenuItem id="UAPTMSQ0020" market="2" symbol="KSQ" header="TAT 처리 소요시간 성능추이 모니터링 (KOSDAQ)"/>
+				<MenuItem id="UAPTMSQ0020" market="2" symbol="KNX" header="TAT 처리 소요시간 성능추이 모니터링 (KONEX)"/>
+			</MenuItem>
+			<MenuItem header="파생">
+				<MenuItem id="UAPTMSQ0020" market="4" symbol="DRV" header="TAT 처리 소요시간 성능추이 모니터링 (파생)"/>
+			</MenuItem>
+			<MenuItem header="채권">
+				<MenuItem id="UAPTMSQ0020" market="8" symbol="BND" header="TAT 처리 소요시간 성능추이 모니터링 (일반채권)"/>
+				<MenuItem id="UAPTMSQ0020" market="8" symbol="SMB" header="TAT 처리 소요시간 성능추이 모니터링 (소액채권)"/>
+				<MenuItem id="UAPTMSQ0020" market="8" symbol="KTS" header="TAT 처리 소요시간 성능추이 모니터링 (국고채)"/>
+				<MenuItem id="UAPTMSQ0020" market="8" symbol="RPO" header="TAT 처리 소요시간 성능추이 모니터링 (REPO)"/>
+			</MenuItem>
+			<MenuItem header="일반">
+				<MenuItem id="UAPTMSQ0020" market="32" symbol="OIL" header="TAT 처리 소요시간 성능추이 모니터링 (석유)"/>
+				<MenuItem id="UAPTMSQ0020" market="32" symbol="CMD" header="TAT 처리 소요시간 성능추이 모니터링 (금)"/>
+				<MenuItem id="UAPTMSQ0020" market="32" symbol="ETS" header="TAT 처리 소요시간 성능추이 모니터링 (온실가스)"/>
+			</MenuItem>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem header="조회(성능/통계)">
+		<MenuItem header="Alarm Message 내역 조회">
+			<MenuItem id="UAPINQQ0020" market="1"  header="Alarm Message 내역 조회 (유가)" />
+			<MenuItem id="UAPINQQ0020" market="2"  header="Alarm Message 내역 조회 (코스닥)"/>
+			<MenuItem id="UAPINQQ0020" market="4"  header="Alarm Message 내역 조회 (파생)"/>
+			<MenuItem id="UAPINQQ0020" market="8"  header="Alarm Message 내역 조회 (채권)"/>
+			<MenuItem id="UAPINQQ0020" market="16" header="Alarm Message 내역 조회 (공통)"/>
+			<MenuItem id="UAPINQQ0020" market="32" header="Alarm Message 내역 조회 (일반)"/>
+		</MenuItem>
+		<MenuItem header="Process Message 내역 조회">
+			<MenuItem id="UAPINQQ0030" market="1"  header="Process Message 내역 조회 (유가)" />
+			<MenuItem id="UAPINQQ0030" market="2"  header="Process Message 내역 조회 (코스닥)"/>
+			<MenuItem id="UAPINQQ0030" market="4"  header="Process Message 내역 조회 (파생)"/>
+			<MenuItem id="UAPINQQ0030" market="8"  header="Process Message 내역 조회 (채권)"/>
+			<MenuItem id="UAPINQQ0030" market="16" header="Process Message 내역 조회 (공통)"/>
+			<MenuItem id="UAPINQQ0030" market="32" header="Process Message 내역 조회 (일반)"/>
+		</MenuItem>
+		<MenuItem header="Log Meesage 내역 조회">
+			<MenuItem id="UAPINQQ0010" market="1"  header="Log Meesage 내역 조회 (유가)" />
+			<MenuItem id="UAPINQQ0010" market="2"  header="Log Meesage 내역 조회 (코스닥)"/>
+			<MenuItem id="UAPINQQ0010" market="4"  header="Log Meesage 내역 조회 (파생)"/>
+			<MenuItem id="UAPINQQ0010" market="8"  header="Log Meesage 내역 조회 (채권)"/>
+			<MenuItem id="UAPINQQ0010" market="16" header="Log Meesage 내역 조회 (공통)"/>
+			<MenuItem id="UAPINQQ0010" market="32" header="Log Meesage 내역 조회 (일반)"/>
+		</MenuItem>
+		<MenuItem header="Event Message 내역 조회">
+			<MenuItem id="UAPINQQ0040" market="1"  header="Event Message 내역 조회 (유가)" />
+			<MenuItem id="UAPINQQ0040" market="2"  header="Event Message 내역 조회 (코스닥)"/>
+			<MenuItem id="UAPINQQ0040" market="4"  header="Event Message 내역 조회 (파생)"/>
+			<MenuItem id="UAPINQQ0040" market="8"  header="Event Message 내역 조회 (채권)"/>
+			<MenuItem id="UAPINQQ0040" market="16" header="Event Message 내역 조회 (공통)"/>
+			<MenuItem id="UAPINQQ0040" market="32" header="Event Message 내역 조회 (일반)"/>
+		</MenuItem>
+		<MenuItem header="TR별성능현황">
+			<MenuItem id="UAPTRAQ0010" market="1"  header="TR별성능현황 (유가)" />
+			<MenuItem id="UAPTRAQ0010" market="2"  header="TR별성능현황 (코스닥)"/>
+			<MenuItem id="UAPTRAQ0010" market="4"  header="TR별성능현황 (파생)"/>
+			<MenuItem id="UAPTRAQ0010" market="8"  header="TR별성능현황 (채권)"/>
+			<MenuItem id="UAPTRAQ0010" market="16" header="TR별성능현황 (공통)"/>
+			<MenuItem id="UAPTRAQ0010" market="32" header="TR별성능현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="TR일일현황">
+			<MenuItem id="UAPTRAQ0020" market="1"  header="TR일일현황 (유가)" />
+			<MenuItem id="UAPTRAQ0020" market="2"  header="TR일일현황 (코스닥)"/>
+			<MenuItem id="UAPTRAQ0020" market="4"  header="TR일일현황 (파생)"/>
+			<MenuItem id="UAPTRAQ0020" market="8"  header="TR일일현황 (채권)"/>
+			<MenuItem id="UAPTRAQ0020" market="16" header="TR일일현황 (공통)"/>
+			<MenuItem id="UAPTRAQ0020" market="32" header="TR일일현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="TR서버별성능현황">
+			<MenuItem id="UAPTRAQ0030" market="1"  header="TR서버별성능현황 (유가)" />
+			<MenuItem id="UAPTRAQ0030" market="2"  header="TR서버별성능현황 (코스닥)"/>
+			<MenuItem id="UAPTRAQ0030" market="4"  header="TR서버별성능현황 (파생)"/>
+			<MenuItem id="UAPTRAQ0030" market="8"  header="TR서버별성능현황 (채권)"/>
+			<MenuItem id="UAPTRAQ0030" market="16" header="TR서버별성능현황 (공통)"/>
+			<MenuItem id="UAPTRAQ0030" market="32" header="TR서버별성능현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="회원별RT현황">
+			<MenuItem id="UAPRTPQ0010" market="1"  header="회원별RT현황 (유가)" />
+			<MenuItem id="UAPRTPQ0010" market="2"  header="회원별RT현황 (코스닥)"/>
+			<MenuItem id="UAPRTPQ0010" market="4"  header="회원별RT현황 (파생)"/>
+			<MenuItem id="UAPRTPQ0010" market="8"  header="회원별RT현황 (채권)"/>
+			<MenuItem id="UAPRTPQ0010" market="16" header="회원별RT현황 (공통)"/>
+			<MenuItem id="UAPRTPQ0010" market="32" header="회원별RT현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="회원별RT일별현황">
+			<MenuItem id="UAPRTPQ0020" market="1"  header="회원별RT일별현황 (유가)" />
+			<MenuItem id="UAPRTPQ0020" market="2"  header="회원별RT일별현황 (코스닥)"/>
+			<MenuItem id="UAPRTPQ0020" market="4"  header="회원별RT일별현황 (파생)"/>
+			<MenuItem id="UAPRTPQ0020" market="8"  header="회원별RT일별현황 (채권)"/>
+			<MenuItem id="UAPRTPQ0020" market="16" header="회원별RT일별현황 (공통)"/>
+			<MenuItem id="UAPRTPQ0020" market="32" header="회원별RT일별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="회원별RT그룹별현황">
+			<MenuItem id="UAPRTPQ0030" market="1"  header="회원별RT그룹별현황 (유가)" />
+			<MenuItem id="UAPRTPQ0030" market="2"  header="회원별RT그룹별현황 (코스닥)"/>
+			<MenuItem id="UAPRTPQ0030" market="4"  header="회원별RT그룹별현황 (파생)"/>
+			<MenuItem id="UAPRTPQ0030" market="8"  header="회원별RT그룹별현황 (채권)"/>
+			<MenuItem id="UAPRTPQ0030" market="16" header="회원별RT그룹별현황 (공통)"/>
+			<MenuItem id="UAPRTPQ0030" market="32" header="회원별RT그룹별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="회원별RT종목별현황">
+			<MenuItem id="UAPRTPQ0040" market="1"  header="회원별RT종목별현황 (유가)" />
+			<MenuItem id="UAPRTPQ0040" market="2"  header="회원별RT종목별현황 (코스닥)"/>
+			<MenuItem id="UAPRTPQ0040" market="4"  header="회원별RT종목별현황 (파생)"/>
+			<MenuItem id="UAPRTPQ0040" market="8"  header="회원별RT종목별현황 (채권)"/>
+			<MenuItem id="UAPRTPQ0040" market="16" header="회원별RT종목별현황 (공통)"/>
+			<MenuItem id="UAPRTPQ0040" market="32" header="회원별RT종목별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="회원별TAT현황">
+			<MenuItem id="UAPTATQ0010" market="1"  header="회원별TAT현황 (유가)" />
+			<MenuItem id="UAPTATQ0010" market="2"  header="회원별TAT현황 (코스닥)"/>
+			<MenuItem id="UAPTATQ0010" market="4"  header="회원별TAT현황 (파생)"/>
+			<MenuItem id="UAPTATQ0010" market="8"  header="회원별TAT현황 (채권)"/>
+			<MenuItem id="UAPTATQ0010" market="16" header="회원별TAT현황 (공통)"/>
+			<MenuItem id="UAPTATQ0010" market="32" header="회원별TAT현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="회원별TAT일별현황">
+			<MenuItem id="UAPTATQ0020" market="1"  header="회원별TAT일별현황 (유가)" />
+			<MenuItem id="UAPTATQ0020" market="2"  header="회원별TAT일별현황 (코스닥)"/>
+			<MenuItem id="UAPTATQ0020" market="4"  header="회원별TAT일별현황 (파생)"/>
+			<MenuItem id="UAPTATQ0020" market="8"  header="회원별TAT일별현황 (채권)"/>
+			<MenuItem id="UAPTATQ0020" market="16" header="회원별TAT일별현황 (공통)"/>
+			<MenuItem id="UAPTATQ0020" market="32" header="회원별TAT일별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="회원별TAT그룹별현황">
+			<MenuItem id="UAPTATQ0030" market="1"  header="회원별TAT그룹별현황 (유가)" />
+			<MenuItem id="UAPTATQ0030" market="2"  header="회원별TAT그룹별현황 (코스닥)"/>
+			<MenuItem id="UAPTATQ0030" market="4"  header="회원별TAT그룹별현황 (파생)"/>
+			<MenuItem id="UAPTATQ0030" market="8"  header="회원별TAT그룹별현황 (채권)"/>
+			<MenuItem id="UAPTATQ0030" market="16" header="회원별TAT그룹별현황 (공통)"/>
+			<MenuItem id="UAPTATQ0030" market="32" header="회원별TAT그룹별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="회원별TAT종목별현황">
+			<MenuItem id="UAPTATQ0040" market="1"  header="회원별TAT종목별현황 (유가)" />
+			<MenuItem id="UAPTATQ0040" market="2"  header="회원별TAT종목별현황 (코스닥)"/>
+			<MenuItem id="UAPTATQ0040" market="4"  header="회원별TAT종목별현황 (파생)"/>
+			<MenuItem id="UAPTATQ0040" market="8"  header="회원별TAT종목별현황 (채권)"/>
+			<MenuItem id="UAPTATQ0040" market="16" header="회원별TAT종목별현황 (공통)"/>
+			<MenuItem id="UAPTATQ0040" market="32" header="회원별TAT종목별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="호가유입건수(회원별)">
+			<MenuItem id="UAPTPSQ0010" market="1"  header="호가유입건수(회원별) (유가)" />
+			<MenuItem id="UAPTPSQ0010" market="2"  header="호가유입건수(회원별) (코스닥)"/>
+			<MenuItem id="UAPTPSQ0010" market="4"  header="호가유입건수(회원별) (파생)"/>
+			<MenuItem id="UAPTPSQ0010" market="8"  header="호가유입건수(회원별) (채권)"/>
+			<MenuItem id="UAPTPSQ0010" market="16" header="호가유입건수(회원별) (공통)"/>
+			<MenuItem id="UAPTPSQ0010" market="32" header="호가유입건수(회원별) (일반)"/>
+		</MenuItem>
+		<MenuItem header="호가유입건수시간대별현황">
+			<MenuItem id="UAPTPSQ0020" market="1"  header="호가유입건수시간대별현황 (유가)" />
+			<MenuItem id="UAPTPSQ0020" market="2"  header="호가유입건수시간대별현황 (코스닥)"/>
+			<MenuItem id="UAPTPSQ0020" market="4"  header="호가유입건수시간대별현황 (파생)"/>
+			<MenuItem id="UAPTPSQ0020" market="8"  header="호가유입건수시간대별현황 (채권)"/>
+			<MenuItem id="UAPTPSQ0020" market="16" header="호가유입건수시간대별현황 (공통)"/>
+			<MenuItem id="UAPTPSQ0020" market="32" header="호가유입건수시간대별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="호가유입건수그룹별현황">
+			<MenuItem id="UAPTPSQ0030" market="1"  header="호가유입건수그룹별현황 (유가)" />
+			<MenuItem id="UAPTPSQ0030" market="2"  header="호가유입건수그룹별현황 (코스닥)"/>
+			<MenuItem id="UAPTPSQ0030" market="4"  header="호가유입건수그룹별현황 (파생)"/>
+			<MenuItem id="UAPTPSQ0030" market="8"  header="호가유입건수그룹별현황 (채권)"/>
+			<MenuItem id="UAPTPSQ0030" market="16" header="호가유입건수그룹별현황 (공통)"/>
+			<MenuItem id="UAPTPSQ0030" market="32" header="호가유입건수그룹별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="호가유입건수종목별현황">
+			<MenuItem id="UAPTPSQ0040" market="1"  header="호가유입건수종목별현황 (유가)" />
+			<MenuItem id="UAPTPSQ0040" market="2"  header="호가유입건수종목별현황 (코스닥)"/>
+			<MenuItem id="UAPTPSQ0040" market="4"  header="호가유입건수종목별현황 (파생)"/>
+			<MenuItem id="UAPTPSQ0040" market="8"  header="호가유입건수종목별현황 (채권)"/>
+			<MenuItem id="UAPTPSQ0040" market="16" header="호가유입건수종목별현황 (공통)"/>
+			<MenuItem id="UAPTPSQ0040" market="32" header="호가유입건수종목별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="업무구간그룹별현황">
+			<MenuItem id="UAPSECQ0010" market="1"  header="업무구간그룹별현황 (유가)" />
+			<MenuItem id="UAPSECQ0010" market="2"  header="업무구간그룹별현황 (코스닥)"/>
+			<MenuItem id="UAPSECQ0010" market="4"  header="업무구간그룹별현황 (파생)"/>
+			<MenuItem id="UAPSECQ0010" market="8"  header="업무구간그룹별현황 (채권)"/>
+			<MenuItem id="UAPSECQ0010" market="16" header="업무구간그룹별현황 (공통)"/>
+			<MenuItem id="UAPSECQ0010" market="32" header="업무구간그룹별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="업무구간종목별현황">
+			<MenuItem id="UAPSECQ0020" market="1"  header="업무구간종목별현황 (유가)" />
+			<MenuItem id="UAPSECQ0020" market="2"  header="업무구간종목별현황 (코스닥)"/>
+			<MenuItem id="UAPSECQ0020" market="4"  header="업무구간종목별현황 (파생)"/>
+			<MenuItem id="UAPSECQ0020" market="8"  header="업무구간종목별현황 (채권)"/>
+			<MenuItem id="UAPSECQ0020" market="16" header="업무구간종목별현황 (공통)"/>
+			<MenuItem id="UAPSECQ0020" market="32" header="업무구간종목별현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="업무구간특정호가현황">
+			<MenuItem id="UAPSECQ0030" market="1"  header="업무구간특정호가현황 (유가)" />
+			<MenuItem id="UAPSECQ0030" market="2"  header="업무구간특정호가현황 (코스닥)"/>
+			<MenuItem id="UAPSECQ0030" market="4"  header="업무구간특정호가현황 (파생)"/>
+			<MenuItem id="UAPSECQ0030" market="8"  header="업무구간특정호가현황 (채권)"/>
+			<MenuItem id="UAPSECQ0030" market="16" header="업무구간특정호가현황 (공통)"/>
+			<MenuItem id="UAPSECQ0030" market="32" header="업무구간특정호가현황 (일반)"/>
+		</MenuItem>
+		<MenuItem header="매매정보성능내역현황">
+			<MenuItem id="UAPSECQ0060" market="1"  header="매매정보성능내역현황 (유가)" />
+			<MenuItem id="UAPSECQ0060" market="2"  header="매매정보성능내역현황 (코스닥)"/>
+			<MenuItem id="UAPSECQ0060" market="4"  header="매매정보성능내역현황 (파생)"/>
+			<MenuItem id="UAPSECQ0060" market="8"  header="매매정보성능내역현황 (채권)"/>
+			<MenuItem id="UAPSECQ0060" market="16" header="매매정보성능내역현황 (공통)"/>
+			<MenuItem id="UAPSECQ0060" market="32" header="매매정보성능내역현황 (일반)"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem header="보고서">
+		<MenuItem header="CPU Report">
+			<MenuItem id="RAPRPTQ0020" market="1"  header="CPU Report (유가)" />
+			<MenuItem id="RAPRPTQ0020" market="2"  header="CPU Report (코스닥)"/>
+			<MenuItem id="RAPRPTQ0020" market="4"  header="CPU Report (파생)"/>
+			<MenuItem id="RAPRPTQ0020" market="8"  header="CPU Report (채권)"/>
+			<MenuItem id="RAPRPTQ0020" market="32" header="CPU Report (일반)"/>
+			<MenuItem id="RAPRPTQ0020" market="16" header="CPU Report (공통)"/>
+		</MenuItem>
+		<MenuItem header="Memory Report">
+			<MenuItem id="RAPRPTQ0030" market="1"  header="Memory Report (유가)" />
+			<MenuItem id="RAPRPTQ0030" market="2"  header="Memory Report (코스닥)"/>
+			<MenuItem id="RAPRPTQ0030" market="4"  header="Memory Report (파생)"/>
+			<MenuItem id="RAPRPTQ0030" market="8"  header="Memory Report (채권)"/>
+			<MenuItem id="RAPRPTQ0030" market="16" header="Memory Report (공통)"/>
+			<MenuItem id="RAPRPTQ0030" market="32" header="Memory Report (일반)"/>
+		</MenuItem>
+		<MenuItem header="일일 성능 Report">
+			<MenuItem id="UAPINQQ0050" market="1"  header="일일 성능 Report (유가)" />
+			<MenuItem id="UAPINQQ0050" market="2"  header="일일 성능 Report (코스닥)"/>
+			<MenuItem id="UAPINQQ0050" market="4"  header="일일 성능 Report (파생)"/>
+			<MenuItem id="UAPINQQ0050" market="8"  header="일일 성능 Report (채권)"/>
+			<MenuItem id="UAPINQQ0050" market="16" header="일일 성능 Report (공통)"/>
+			<MenuItem id="UAPINQQ0050" market="32" header="일일 성능 Report (일반)"/>
+		</MenuItem>
+		<MenuItem header="일일 성능 데이터 조회">
+			<MenuItem id="UAPINQQ0060" market="1"  header="일일 성능 데이터 조회 (유가)" />
+			<MenuItem id="UAPINQQ0060" market="2"  header="일일 성능 데이터 조회 (코스닥)"/>
+			<MenuItem id="UAPINQQ0060" market="4"  header="일일 성능 데이터 조회 (파생)"/>
+			<MenuItem id="UAPINQQ0060" market="8"  header="일일 성능 데이터 조회 (채권)"/>
+			<MenuItem id="UAPINQQ0060" market="16" header="일일 성능 데이터 조회 (공통)"/>
+			<MenuItem id="UAPINQQ0060" market="32" header="일일 성능 데이터 조회 (일반)"/>
+		</MenuItem>
+		<MenuItem id="UAPTRAQ0040" market="1" header="성능테스트 보고서 (전서버대상)"  />
+		<MenuItem id="UAPTRAQ0043" market="1" header="매매정보 성능테스트 보고서 (전서버대상)"  />
+		<MenuItem header="업무로그 통계 보고서 - 로그요약">
+			<MenuItem id="UAPSECQ0050" market="1"  header="업무로그 통계 보고서 - 로그요약 (유가)" />
+			<MenuItem id="UAPSECQ0050" market="2"  header="업무로그 통계 보고서 - 로그요약 (코스닥)"/>
+			<MenuItem id="UAPSECQ0050" market="4"  header="업무로그 통계 보고서 - 로그요약 (파생)"/>
+			<MenuItem id="UAPSECQ0050" market="8"  header="업무로그 통계 보고서 - 로그요약 (채권)"/>
+			<MenuItem id="UAPSECQ0050" market="16" header="업무로그 통계 보고서 - 로그요약 (공통)"/>
+			<MenuItem id="UAPSECQ0050" market="32" header="업무로그 통계 보고서 - 로그요약 (일반)"/>
+		</MenuItem>
+		<MenuItem header="업무로그 통계 보고서 - 이벤트">
+			<MenuItem id="UAPSECQ0052" market="1"  header="업무로그 통계 보고서 - 이벤트 (유가)" />
+			<MenuItem id="UAPSECQ0052" market="2"  header="업무로그 통계 보고서 - 이벤트 (코스닥)"/>
+			<MenuItem id="UAPSECQ0052" market="4"  header="업무로그 통계 보고서 - 이벤트 (파생)"/>
+			<MenuItem id="UAPSECQ0052" market="8"  header="업무로그 통계 보고서 - 이벤트 (채권)"/>
+			<MenuItem id="UAPSECQ0052" market="16" header="업무로그 통계 보고서 - 이벤트 (공통)"/>
+			<MenuItem id="UAPSECQ0052" market="32" header="업무로그 통계 보고서 - 이벤트 (일반)"/>
+		</MenuItem>
+	</MenuItem>
+	<MenuItem header="환경설정">
+		<MenuItem header="마켓관리">
+			<MenuItem id="UAPCFGM0110" market="1"  header="마켓관리 (유가)" />
+			<MenuItem id="UAPCFGM0110" market="2"  header="마켓관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0110" market="4"  header="마켓관리 (파생)"/>
+			<MenuItem id="UAPCFGM0110" market="8"  header="마켓관리 (채권)"/>
+			<MenuItem id="UAPCFGM0110" market="16" header="마켓관리 (공통)"/>
+			<MenuItem id="UAPCFGM0110" market="32" header="마켓관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="그룹관리">
+			<MenuItem id="UAPCFGM0010" market="1"  header="그룹관리 (유가)" />
+			<MenuItem id="UAPCFGM0010" market="2"  header="그룹관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0010" market="4"  header="그룹관리 (파생)"/>
+			<MenuItem id="UAPCFGM0010" market="8"  header="그룹관리 (채권)"/>
+			<MenuItem id="UAPCFGM0010" market="16" header="그룹관리 (공통)"/>
+			<MenuItem id="UAPCFGM0010" market="32" header="그룹관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="호스트관리">
+			<MenuItem id="UAPCFGM0020" market="1"  header="호스트관리 (유가)" />
+			<MenuItem id="UAPCFGM0020" market="2"  header="호스트관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0020" market="4"  header="호스트관리 (파생)"/>
+			<MenuItem id="UAPCFGM0020" market="8"  header="호스트관리 (채권)"/>
+			<MenuItem id="UAPCFGM0020" market="16" header="호스트관리 (공통)"/>
+			<MenuItem id="UAPCFGM0020" market="32" header="호스트관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="리소스타입관리">
+			<MenuItem id="UAPCFGM0030" market="1"  header="리소스타입관리 (유가)" />
+			<MenuItem id="UAPCFGM0030" market="2"  header="리소스타입관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0030" market="4"  header="리소스타입관리 (파생)"/>
+			<MenuItem id="UAPCFGM0030" market="8"  header="리소스타입관리 (채권)"/>
+			<MenuItem id="UAPCFGM0030" market="16" header="리소스타입관리 (공통)"/>
+			<MenuItem id="UAPCFGM0030" market="32" header="리소스타입관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="리소스관리">
+			<MenuItem id="UAPCFGM0040" market="1"  header="리소스관리 (유가)" />
+			<MenuItem id="UAPCFGM0040" market="2"  header="리소스관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0040" market="4"  header="리소스관리 (파생)"/>
+			<MenuItem id="UAPCFGM0040" market="8"  header="리소스관리 (채권)"/>
+			<MenuItem id="UAPCFGM0040" market="16" header="리소스관리 (공통)"/>
+			<MenuItem id="UAPCFGM0040" market="32" header="리소스관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="Itemkey관리">
+			<MenuItem id="UAPCFGM0050" market="1"  header="Itemkey관리 (유가)" />
+			<MenuItem id="UAPCFGM0050" market="2"  header="Itemkey관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0050" market="4"  header="Itemkey관리 (파생)"/>
+			<MenuItem id="UAPCFGM0050" market="8"  header="Itemkey관리 (채권)"/>
+			<MenuItem id="UAPCFGM0050" market="16" header="Itemkey관리 (공통)"/>
+			<MenuItem id="UAPCFGM0050" market="32" header="Itemkey관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="Item관리">
+			<MenuItem id="UAPCFGM0120" market="1"  header="Item관리 (유가)" />
+			<MenuItem id="UAPCFGM0120" market="2"  header="Item관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0120" market="4"  header="Item관리 (파생)"/>
+			<MenuItem id="UAPCFGM0120" market="8"  header="Item관리 (채권)"/>
+			<MenuItem id="UAPCFGM0120" market="16" header="Item관리 (공통)"/>
+			<MenuItem id="UAPCFGM0120" market="32" header="Item관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="Ping그룹관리">
+			<MenuItem id="UAPCFGM0130" market="1"  header="Ping그룹관리 (유가)" />
+			<MenuItem id="UAPCFGM0130" market="2"  header="Ping그룹관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0130" market="4"  header="Ping그룹관리 (파생)"/>
+			<MenuItem id="UAPCFGM0130" market="8"  header="Ping그룹관리 (채권)"/>
+			<MenuItem id="UAPCFGM0130" market="16" header="Ping그룹관리 (공통)"/>
+			<MenuItem id="UAPCFGM0130" market="32" header="Ping그룹관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="Ping주소관리">
+			<MenuItem id="UAPCFGM0060" market="1"  header="Ping주소관리 (유가)" />
+			<MenuItem id="UAPCFGM0060" market="2"  header="Ping주소관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0060" market="4"  header="Ping주소관리 (파생)"/>
+			<MenuItem id="UAPCFGM0060" market="8"  header="Ping주소관리 (채권)"/>
+			<MenuItem id="UAPCFGM0060" market="16" header="Ping주소관리 (공통)"/>
+			<MenuItem id="UAPCFGM0060" market="32" header="Ping주소관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="테이블별보관주기관리">
+			<MenuItem id="UAPCFGM0140" market="1"  header="테이블별보관주기관리 (유가)" />
+			<MenuItem id="UAPCFGM0140" market="2"  header="테이블별보관주기관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0140" market="4"  header="테이블별보관주기관리 (파생)"/>
+			<MenuItem id="UAPCFGM0140" market="8"  header="테이블별보관주기관리 (채권)"/>
+			<MenuItem id="UAPCFGM0140" market="16" header="테이블별보관주기관리 (공통)"/>
+			<MenuItem id="UAPCFGM0140" market="32" header="테이블별보관주기관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="LogFile정보관리">
+			<MenuItem id="UAPCFGM0150" market="1"  header="LogFile정보관리 (유가)" />
+			<MenuItem id="UAPCFGM0150" market="2"  header="LogFile정보관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0150" market="4"  header="LogFile정보관리 (파생)"/>
+			<MenuItem id="UAPCFGM0150" market="8"  header="LogFile정보관리 (채권)"/>
+			<MenuItem id="UAPCFGM0150" market="16" header="LogFile정보관리 (공통)"/>
+			<MenuItem id="UAPCFGM0150" market="32" header="LogFile정보관리 (일반)"/>
+		</MenuItem>
+		<MenuItem header="사용자관리">
+			<MenuItem id="UAPCFGM0070" market="1"  header="사용자관리 (유가)" />
+			<MenuItem id="UAPCFGM0070" market="2"  header="사용자관리 (코스닥)"/>
+			<MenuItem id="UAPCFGM0070" market="4"  header="사용자관리 (파생)"/>
+			<MenuItem id="UAPCFGM0070" market="8"  header="사용자관리 (채권)"/>
+			<MenuItem id="UAPCFGM0070" market="16" header="사용자관리 (공통)"/>
+			<MenuItem id="UAPCFGM0070" market="32" header="사용자관리 (일반)"/>
+		</MenuItem>
+	</MenuItem>
+</Menu>

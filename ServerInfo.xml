@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<APM>
+  <AppInfo>
+    <Application_Name>APM</Application_Name>
+    <Version>10.2.42</Version>
+    <Update_Time>2023-02-16 08:40:34</Update_Time>
+    <Language>KOR</Language>
+    <WindowOpenType>0</WindowOpenType>
+    <OpenWindowCount>12</OpenWindowCount>
+    <StartScreen>1</StartScreen>
+    <LastScreen />
+    <StartFullScreen>OFF</StartFullScreen>
+    <Timezone>9</Timezone>
+    <Theme>Dark</Theme>
+    <DashBoardIconRatio>90%</DashBoardIconRatio>
+    <LastConnectServer>가동-청산</LastConnectServer>
+    <SaveIdType>0</SaveIdType>
+    <Sound>off</Sound>
+    <AlertView>on</AlertView>
+    <TreeView>on</TreeView>
+    <MenuToolbarView>on</MenuToolbarView>
+    <OpenWindowView>on</OpenWindowView>
+    <AlertPopupView>off</AlertPopupView>
+  </AppInfo>
+  <ServerInfo>
+    <Server>
+      <Name>개발-청산</Name>
+      <Ip>10.143.114.112</Ip>
+      <Port>9111</Port>
+      <Symbol>1</Symbol>
+    </Server>
+    <Server>
+      <Name>가동-청산</Name>
+      <Ip>10.147.130.23</Ip>
+      <Port>9171</Port>
+      <Symbol>1</Symbol>
+    </Server>
+  </ServerInfo>
+  <VersionInfo>
+    <Ip>10.112.160.71</Ip>
+    <Port>9110</Port>
+  </VersionInfo>
+</APM>
